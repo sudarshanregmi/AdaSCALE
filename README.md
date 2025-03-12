@@ -36,6 +36,8 @@ pip install git+https://github.com/Jingkang50/OpenOOD
 
 Please see [**results folder**](./results/) for [**OpenOOD v1.5 benchmark**](https://zjysteven.github.io/OpenOOD/#leaderboard) results.
 
+Please refer to [**Google Drive**](https://drive.google.com/drive/folders/1bSymS3257nPsP83xCQGISYc1NBrdTgc3?usp=sharing) for access to the models we trained.
+
 ### Results
 - AdaSCALE's generalization in ImageNet-1k benchmark:
 <p align="center">
