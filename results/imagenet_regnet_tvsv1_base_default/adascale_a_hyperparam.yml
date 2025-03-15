@@ -1,0 +1,5 @@
+percentile_list: [[60, 90]]
+k1_list: [30]
+k2_list: [1]
+lmbda_list: [10]
+per_list: [0.05]
