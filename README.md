@@ -34,9 +34,35 @@ pip install git+https://github.com/Jingkang50/OpenOOD
   <img width="500" src="imgs/eval.png">
 </p>
 
+### Example Scripts
+Use the following scripts for inferencing with AdaSCALE-A postprocessor on different datasets:
+
+- **CIFAR-10:**
+  ```bash
+  bash scripts/ood/adascale_a/cifar10_train_adascale.sh
+  bash scripts/ood/adascale_a/cifar10_test_adascale.sh
+  ```
+- **CIFAR-100:**
+  ```bash
+  bash scripts/ood/adascale_a/cifar100_train_adascale.sh
+  bash scripts/ood/adascale_a/cifar100_test_adascale.sh
+  ```
+- **ImageNet-200:**
+  ```bash
+  bash scripts/ood/adascale_a/imagenet200_train_adascale.sh
+  bash scripts/ood/adascale_a/imagenet200_test_adascale.sh
+  ```
+- **ImageNet-1k:**
+  ```bash
+  bash scripts/ood/adascale_a/imagenet_train_adascale.sh
+  bash scripts/ood/adascale_a/imagenet_test_adascale.sh
+  ```
+
+Please see [**./scripts/ood/adascale_l/**](./scripts/ood/adascale_l/)  folder for another variant.
+
 Please see [**results folder**](./results/) for [**OpenOOD v1.5 benchmark**](https://zjysteven.github.io/OpenOOD/#leaderboard) results.
 
-Please refer to [**Google Drive**](https://drive.google.com/drive/folders/1bSymS3257nPsP83xCQGISYc1NBrdTgc3?usp=sharing) for access to the models we trained.
+Please refer to [**Google Drive**](https://drive.google.com/drive/folders/1bSymS3257nPsP83xCQGISYc1NBrdTgc3?usp=sharing) for access to the models we trained on CIFAR-10/100 datasets.
 
 ### Results
 - AdaSCALE's generalization in ImageNet-1k benchmark:
