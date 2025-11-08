@@ -24,6 +24,19 @@ The ability of the deep learning model to recognize when a sample falls outside 
 <a href="https://github.com/sudarshanregmi/reweightood"><img src="https://img.shields.io/badge/CVPRW'24-ReweightOOD-f4d5b3?style=for-the-badge" alt="reweightood" style="margin-right: 10px;"></a> <br>
 <a href="https://github.com/sudarshanregmi/ascood"><img src="https://img.shields.io/badge/arXiv'25-ASCOOD-fdd7e6?style=for-the-badge" alt="ascood" style="margin-right: 10px;"></a>
 
+## Note
+You only need to tune `p_max`. Keep the remaining hyperparameters fixed to the following defaults for near‑optimal performance:
+- lambda = 10
+- p_min = 60
+- o = 5% (0.05)
+- k1 = 5% (0.05)
+- k2 = 1% (0.01)
+- epsilon = 0.5
+
+Erratum: There is a minor paper/code mismatch. In the code, `k1` and `k2` are swapped relative to the paper:
+- paper `k1` ↔ code `k2`
+- paper `k2` ↔ code `k1`
+
 ### Follow [OpenOOD](https://github.com/Jingkang50/OpenOOD) official instruction to complete the setup.
 ```
 pip install git+https://github.com/Jingkang50/OpenOOD
