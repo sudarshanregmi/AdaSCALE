@@ -1,3 +1,5 @@
+_**Note: The results reported in the paper differ from those on the OpenOOD leaderboard because the paper includes additional OOD datasets, such as ImageNet-O and Places.**_
+
 # AdaSCALE: Adaptive Scaling for OOD Detection 
 This codebase provides a Pytorch implementation of:
 
