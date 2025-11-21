@@ -123,10 +123,10 @@ class AdaScalePostprocessor(BasePostprocessor):
         self.o = hyperparam[4]
         self.k1_ = int(self.feature_dim * self.k1 / 100)
         self.k2_ = int(self.feature_dim * self.k2 / 100)
-        topk_indices = torch.topk(self.feature_log, k=self.k1_, dim=1)[1]
+        topk_indices = torch.topk(self.feature_log, k=self.k2_, dim=1)[1]
         topk_feature_perturbed = torch.gather(
             torch.relu(self.feature_perturbed_log), 1, topk_indices)
-        topk_indices = torch.topk(self.feature_log, k=self.k2_, dim=1)[1]
+        topk_indices = torch.topk(self.feature_log, k=self.k1_, dim=1)[1]
         topk_feature_shift_log = torch.gather(self.feature_shift_log, 1,
                                               topk_indices)
         sum_log = topk_feature_perturbed.sum(
