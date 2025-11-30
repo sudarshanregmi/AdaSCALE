@@ -1,5 +1,5 @@
 percentile_list: [[70, 80]]
-k1_list: [5]
-k2_list: [1]
+k1_list: [1]
+k2_list: [5]
 lmbda_list: [10]
 per_list: [0.05]
