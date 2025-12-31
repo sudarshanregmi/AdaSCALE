@@ -93,11 +93,6 @@ Please refer to [**Google Drive**](https://drive.google.com/drive/folders/1bSymS
   <img width="500" src="imgs/cifar.png">
 </p>
 
-- Adaptive percentile vs. Static percentile
-<p align="center">
-  <img width="500" src="imgs/percentile.png">
-</p>
-
 - AdaSCALE's efficacy with limited ID data
 <p align="center">
   <img width="500" src="imgs/limited_id_data.png">
