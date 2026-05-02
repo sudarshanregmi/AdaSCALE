@@ -4,7 +4,7 @@ _**Note: The results reported in the paper differ from those on the OpenOOD lead
 This codebase provides a Pytorch implementation of:
 
 >**AdaSCALE: Adaptive Scaling for OOD Detection**  
-[![AdaSCALE](https://img.shields.io/badge/arXiv'25-AdaSCALE-fdd7e6?style=for-the-badge)](https://arxiv.org/abs/2503.08023)  
+[![AdaSCALE](https://img.shields.io/badge/ICML'26-AdaSCALE-fdd7e6?style=for-the-badge)](https://arxiv.org/abs/2503.08023)  
 Sudarshan Regmi
 
 >**AdaSCALE's illustration**
@@ -24,12 +24,7 @@ The ability of the deep learning model to recognize when a sample falls outside 
 
 <a href="https://github.com/sudarshanregmi/t2fnorm"><img src="https://img.shields.io/badge/CVPRW'24-T2FNorm-fdd7e6?style=for-the-badge" alt="t2fnorm" style="margin-right: 10px;"></a> <br>
 <a href="https://github.com/sudarshanregmi/reweightood"><img src="https://img.shields.io/badge/CVPRW'24-ReweightOOD-f4d5b3?style=for-the-badge" alt="reweightood" style="margin-right: 10px;"></a> <br>
-<a href="https://github.com/sudarshanregmi/ascood"><img src="https://img.shields.io/badge/arXiv'25-ASCOOD-fdd7e6?style=for-the-badge" alt="ascood" style="margin-right: 10px;"></a>
-
-# Possibly useful discussions
-@NeurIPS 2025: [https://openreview.net/forum?id=HgfMIHcNao](https://openreview.net/forum?id=HgfMIHcNao)
-
-@ICLR 2026: [https://openreview.net/forum?id=jbGGPSI9aO](https://openreview.net/forum?id=jbGGPSI9aO)
+<a href="https://github.com/sudarshanregmi/ascood"><img src="https://img.shields.io/badge/CVPR'26-ASCOOD-fdd7e6?style=for-the-badge" alt="ascood" style="margin-right: 10px;"></a>
 
 # Note
 You only need to tune `p_max`. Keep the remaining hyperparameters fixed to the following defaults for near‑optimal performance:
